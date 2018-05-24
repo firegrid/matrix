@@ -1,3 +1,7 @@
+/*
+ * Cube.ino 4x4x4 cube model driving code
+ *
+ */
 #define MATRIX_SIZE 4
 
 int row[] = {2, 3, 4, 5};
