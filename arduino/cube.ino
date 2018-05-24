@@ -36,3 +36,15 @@ void turnAllOff() {
     digitalWrite(layer[i], 0);
   }
 }
+void turnAllOn() {
+  int i;
+  for (i = 0; i < MATRIX_SIZE; i++) {
+    digitalWrite(row[i], 1);
+  }
+  for (i = 0; i < MATRIX_SIZE; i++) {
+    digitalWrite(col[i], 0);
+  }
+  for (i = 0; i < MATRIX_SIZE; i++) {
+    digitalWrite(layer[i], 1);
+  }
+}
