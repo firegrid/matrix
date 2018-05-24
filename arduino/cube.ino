@@ -1,6 +1,6 @@
 /*
  * Cube.ino 4x4x4 cube model driving code
- *
+ * row with digital HIGH & column with digital LOW to turn ON LED
  */
 #define MATRIX_SIZE 4
 
